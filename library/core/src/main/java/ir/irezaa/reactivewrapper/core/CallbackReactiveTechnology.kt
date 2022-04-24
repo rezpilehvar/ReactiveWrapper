@@ -1,4 +1,4 @@
-package ir.irezaa.reactivearch.core
+package ir.irezaa.reactivewrapper.core
 
 abstract class CallbackReactiveTechnology<T> {
     abstract fun observe(callback : Callback<T>)

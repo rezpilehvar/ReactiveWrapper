@@ -1,7 +1,9 @@
-package ir.irezaa.reactivearch.android
+package ir.irezaa.reactivewrapper.android
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import ir.irezaa.reactivewrapper.core.CallbackReactiveTechnology
+import ir.irezaa.reactivewrapper.core.ReactiveTechnology
 
 /*
    Creation Time: 4/24/22
@@ -10,9 +12,9 @@ import androidx.appcompat.app.AppCompatActivity
       1.  Reza Pilehvar
 */
 abstract class ReactiveActivity : AppCompatActivity() {
-    abstract val lifecycleReactiveTechnology: ir.irezaa.reactivearch.core.ReactiveTechnology<ActivityLifeCycleEvent>
+    abstract val lifecycleReactiveTechnology: ReactiveTechnology<ActivityLifeCycleEvent>
 
-    private val callBack = object : ir.irezaa.reactivearch.core.CallbackReactiveTechnology.Callback<ActivityLifeCycleEvent> {
+    private val callBack = object : CallbackReactiveTechnology.Callback<ActivityLifeCycleEvent> {
         override fun onData(data: ActivityLifeCycleEvent) {
             println("NewEvent:Callback: $data")
         }

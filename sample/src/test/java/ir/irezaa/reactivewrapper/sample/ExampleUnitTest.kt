@@ -1,4 +1,4 @@
-package ir.irezaa.reactivearch.android
+package ir.irezaa.reactivewrapper.sample
 
 import org.junit.Test
 

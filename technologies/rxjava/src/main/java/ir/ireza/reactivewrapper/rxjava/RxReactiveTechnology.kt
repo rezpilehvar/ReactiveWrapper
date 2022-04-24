@@ -1,9 +1,9 @@
-package ir.ireza.reactivearch.rxjava
+package ir.ireza.reactivewrapper.rxjava
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.subjects.BehaviorSubject
-import ir.irezaa.reactivearch.core.ReactiveTechnology
+import ir.irezaa.reactivewrapper.core.ReactiveTechnology
 
 /*
    Creation Time: 4/24/22

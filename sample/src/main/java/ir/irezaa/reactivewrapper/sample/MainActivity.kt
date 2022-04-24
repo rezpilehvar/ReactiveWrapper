@@ -1,10 +1,10 @@
-package ir.irezaa.reactivearch.sample
+package ir.irezaa.reactivewrapper.sample
 
 import android.os.Bundle
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import ir.irezaa.reactivearch.android.ActivityLifeCycleEvent
-import ir.irezaa.reactivearch.android.ReactiveActivity
-import ir.irezaa.reactivearch.coroutine.CoroutineReactiveTechnology
+import ir.irezaa.reactivewrapper.android.ActivityLifeCycleEvent
+import ir.irezaa.reactivewrapper.android.ReactiveActivity
+import ir.irezaa.reactivewrapper.coroutine.CoroutineReactiveTechnology
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,6 +1,6 @@
-package ir.irezaa.reactivearch.coroutine
+package ir.irezaa.reactivewrapper.coroutine
 
-import ir.irezaa.reactivearch.core.ReactiveTechnology
+import ir.irezaa.reactivewrapper.core.ReactiveTechnology
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
