@@ -2,6 +2,8 @@ package ir.irezaa.reactivewrapper.sample
 
 import android.os.Bundle
 import io.reactivex.rxjava3.disposables.CompositeDisposable
+import ir.ireza.reactivewrapper.reactor.ReactorReactiveTechnology
+import ir.ireza.reactivewrapper.rxjava.RxReactiveTechnology
 import ir.irezaa.reactivewrapper.android.ActivityLifeCycleEvent
 import ir.irezaa.reactivewrapper.android.ReactiveActivity
 import ir.irezaa.reactivewrapper.coroutine.CoroutineReactiveTechnology
@@ -34,5 +36,9 @@ class MainActivity : ReactiveActivity() {
 //        disposables.add(lifecycleReactiveTechnology.observe().subscribe {
 //            println("NewEvent:RX: $it")
 //        })
+
+//        lifecycleReactiveTechnology.flux().subscribe {
+//            println("NewEvent:RA: $it")
+//        }
     }
 }

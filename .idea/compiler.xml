@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="ReactiveWrapper.library.android" target="11" />
       <module name="ReactiveWrapper.sample" target="11" />
+      <module name="ReactiveWrapper.technologies.reactor" target="1.8" />
       <module name="ReactiveWrapper.technologies.rxjava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
