@@ -16,5 +16,6 @@ rootProject.name = "ReactiveWrapper"
 include ':sample'
 include ':technologies:coroutine'
 include ':technologies:rxjava'
+include ':technologies:reactor'
 include ':library:core'
 include ':library:android'

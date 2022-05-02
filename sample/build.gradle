@@ -43,6 +43,8 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     implementation "io.reactivex.rxjava3:rxjava:3.1.4"
+    implementation("io.projectreactor:reactor-core:3.4.17")
+    implementation project(':technologies:reactor')
     implementation project(':library:android')
     implementation project(':technologies:rxjava')
     implementation project(':technologies:coroutine')
